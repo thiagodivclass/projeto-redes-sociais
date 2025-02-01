@@ -69,13 +69,7 @@ main #redes {
     
 }
 
-{
 
-    height: 467px;
-    width: 263px;
-
-
-}
 
 #redes  img{
 
@@ -98,12 +92,18 @@ main #redes {
 
 }
 
-section #youtube{
-
-
-
-
-
-
+#telacel {
+    
+    position: relative;
+    height: 467px;
+    width: 263px;
+    background-image: url(../imagens/tela-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
 }
+
