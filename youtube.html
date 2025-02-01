@@ -7,21 +7,47 @@
 
 
     <style>
-        body {
-
-            position: absolute;
-            height: 100vh;
-            width: 220px;
-            background-image: url(imagens/tela-youtube.png);
-            background-repeat: no-repeat;
-            background-position-y: top center;
-            background-size: cover;
-            
-
-
+        html body {
+            background-color: #000;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
 
 
         }
+
+        body #youtube7 img {
+            position: relative;
+            height: 100%;
+            width: 250px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            top:500px;
+            left: 50%;
+            transform: translate(-50%, -40%);
+            margin-bottom: 1em;
+        }
+
+        body .canalyt {
+           
+            width: 150px;
+            height: 20px;
+            background-color:#000;
+            display: flex;           
+            align-items: center;
+            flex-direction: row;
+            justify-self: center;
+            
+        }
+
+        .canalyt a {
+            text-decoration: none;         
+            color: aliceblue;
+            
+            
+
+        }
+
+        
     </style>
 
 
@@ -32,8 +58,14 @@
 
 <body>
 
+    <section id="youtube7">
+        <img src="imagens/tela-youtube.png" alt="">
+    </section>
 
+    <div class="canalyt">
+        <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank"><p>Acesse o Canal!</p></a>
 
+    </div>
 
 
 </body>
