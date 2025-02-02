@@ -59,7 +59,8 @@ transform: translate(-50%, -50%);
 
 main #redes {
     text-align: right;
-    padding: 1em;    
+    padding: 1em; 
+    z-index: 1;   
  
        
 }
