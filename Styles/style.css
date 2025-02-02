@@ -19,6 +19,7 @@ main {
     background-position: center left;
     background-repeat: no-repeat;
     background-size: cover; 
+    
        
 }
 
@@ -57,17 +58,12 @@ transform: translate(-50%, -50%);
 
 
 main #redes {
-    width: 5em;
-    padding: 1em;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    right: 0;
-    z-index: 1;
-
-    
-    
+    text-align: right;
+    padding: 1em;    
+ 
+       
 }
+
 
 
 
@@ -78,6 +74,7 @@ main #redes {
    box-shadow: 2px 3px 5px 0px black;
    margin-top: 1em;
    box-sizing: border-box;
+   
    
    
 

@@ -31,13 +31,14 @@ body  img {
 
 body p {
    
-    width: 150px;
+    width: 152px;
     height: 20px;
     background-color:#000;
     display: flex;           
     align-items: center;
     flex-direction: row;
     justify-self: center;
+    font-weight: bold;
     
 }
 
@@ -46,5 +47,12 @@ body p {
     color: aliceblue;
     
     
+
+}
+
+a:hover {
+
+text-decoration: underline;
+
 
 }
